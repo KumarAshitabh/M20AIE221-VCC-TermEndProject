@@ -40,7 +40,7 @@ pip3 install Celery
 
 #### 2.2 Deployment of Cloud server
 VM - Ubuntu 20.04  
-
+```javascript
 sudo apt-get update
 sudo apt-get install git
 sudo apt-get install python3-pip
