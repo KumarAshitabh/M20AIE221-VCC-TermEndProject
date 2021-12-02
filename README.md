@@ -99,6 +99,7 @@ Execute the `client_for_phone.py` in your mobile phone with Python IDE.  Pydroid
 client = Client('192.168.1.9', 10000) # Fog node 
 ```
 cd FogComputing
+
 python3 client_for_phone.py
 ```
 
