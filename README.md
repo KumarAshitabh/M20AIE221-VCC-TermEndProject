@@ -95,11 +95,11 @@ python3 server.py
 
 #### 3.3 Start User Application
 Execute the `client_for_phone.py` in your mobile phone with Python IDE.  Pydroid 3 https://play.google.com/store/apps/details?id=ru.iiec.pydroid3&hl=en_IN&gl=US
-```javascript
-client = Client('192.168.1.9', 10000) # Fog node 
-```
-cd FogComputing
 
+client = Client('192.168.1.9', 10000) # Fog node 
+
+```javascript
+cd FogComputing
 python3 client_for_phone.py
 ```
 
