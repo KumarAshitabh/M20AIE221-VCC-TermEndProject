@@ -56,7 +56,6 @@ Execute the cloud application, fog node application and user application to make
 #### 3.1 Start Cloud Application
 Cloud application should be started first, so that fog nodes can connect to cloud server when they are started.  
 
-```
 Use a new terminal window (connected to the cloud), launch Redis database.
 ```javascript
 redis-server
