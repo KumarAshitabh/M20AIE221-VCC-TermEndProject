@@ -7,7 +7,7 @@ When a fog node receives a lightweight task, it can process the task locally. Wh
 The above figure shows the basic architecture of fog computing. This project can be divided into three parts: fog node application, cloud application and user application. User application can send tasks to fog nodes with different speeds, fog node application can process, offload or upload the tasks, cloud application can process the task and send the results back to fog nodes.
 
 ### 2. Deployment and Installation
-The basic requirements for this project include Ubuntu operating system for fog nodes, AWS EC2 instance with Ubuntu operating system for cloud server and a smart device that supports Python3 script execution (e.g. an iPhone with Python3 IDE).
+The basic requirements for this project include Ubuntu operating system for fog nodes, AWS EC2 /Azure VM instance with Ubuntu operating system for cloud server and a smart device that supports Python3 script execution (e.g. an Android phone or Android emulator with Python3 IDE).
 
 #### 2.1 Deployment of fog node
 The first step is the preparation of the Ubuntu OS for the fog node application. It is recommended to use VirtualBox to create a virtual machine with Ubuntu, because if you have successfully configure one fog node in a virtual machine, you can simply duplicate the virtual machine to create many virtual fog nodes quickly in one computer. If you use VirtualBox, it is important to set the network adapter of the virtual machines to `bridge mode` which can assign different IP addresses to different virtual machines.  
